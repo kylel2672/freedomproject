@@ -10,8 +10,8 @@ function googleLogin(){
     
     .then(result => {
         const user = result.user;
-        document.write("hello" + $user.displayName)
-        console.log(user)
+        document.write("hello" + $user.displayName);
+        console.log(user);
     })
-    .catch(console.log)
+    .catch(console.log);
 }
